@@ -3,9 +3,9 @@
     public class Program
     
 
-    {//EXERCISE ONE
+    {       //EXERCISE ONE
 
-        static void Main(string[] args)
+        public static void Main(string[] args) 
         {
             Console.WriteLine("Name:");
             var favName = Console.ReadLine();
@@ -18,9 +18,14 @@
             Console.WriteLine("Favorite animal:");
             var favAnimal = Console.ReadLine();
             Console.WriteLine();
-
+            
             Console.WriteLine("Favorite band:");
             var favBand = Console.ReadLine();
+            Console.WriteLine();
+            Console.WriteLine();
+
+            Console.WriteLine($"The {favAnimal} was hiding in the bushes.  " + $"{favName} was walking down the road listening to {favBand}.  "
+                +  $"{favName} was scared, ran, and used his {favColor} shirt to wipe the sweat from his face.");
             Console.WriteLine();
             Console.WriteLine();
 
@@ -46,7 +51,7 @@
             Console.WriteLine();
             Console.WriteLine();
 
-
+            //CHALLENGE PORTION
             int twoSum = SumNumbers(2, 4);
             Console.WriteLine("Sum of numbers is {0}", twoSum);
             Console.WriteLine();
@@ -59,6 +64,10 @@
             Console.WriteLine();
         }
 
+       /* public static void Main(string first)
+        {
+           Main();
+        }*/
         public static void SayName(string first)
         {
             string favName = $"Name: {first}";
