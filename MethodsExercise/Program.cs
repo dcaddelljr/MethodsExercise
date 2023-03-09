@@ -68,29 +68,7 @@
         {
            Main();
         }*/
-        public static void SayName(string first)
-        {
-            string favName = $"Name: {first}";
-            Console.WriteLine(first);
-        }
-
-        public static void SayColor(string color)
-        {
-            string favColor = $"Name: {color}";
-            Console.WriteLine(color);
-        }
-
-        public static void SayAnimal(string animal)
-        {
-            string favAnimal = $"Name: {animal}";
-            Console.WriteLine(animal);
-        }
-
-        public static void SayBand(string band)
-        {
-            string favBand = $"Name: {band}";
-            Console.WriteLine(band);
-        }
+        
 
         public static int Add(int num1, int num2)
         {

@@ -1,13 +1,16 @@
 ﻿<Properties StartupConfiguration="{B1E58B2C-8F43-4CBE-81ED-547128E6AD3E}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="MethodsExercise/Program.cs">
     <Files>
-      <File FileName="MethodsExercise/Program.cs" Line="48" Column="1" />
+      <File FileName="../Selection-Statements-Exercise/SelectionStatementExercise/Program.cs" Line="1" Column="1" />
+      <File FileName="MethodsExercise/Program.cs" Line="70" Column="12" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MethodsExercise" expanded="True">
-            <Node name="MethodsExercise" expanded="True" />
+            <Node name="MethodsExercise" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
